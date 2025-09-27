@@ -9,7 +9,7 @@
     ($_POST['preorden'] == '' && $_POST['inorden'] != '' && $_POST['postorden'] == '') ||
     ($_POST['preorden'] == '' && $_POST['inorden'] == '' && $_POST['postorden'] != ''))
     {   
-        echo 'Solo ingres asi no se puede hacer el arbol';
+        echo 'Solo ingresaste un dato asi no se puede hacer el arbol';
         echo '<br>'.'( ￣＾￣)'.'<br>';
         echo 'DEVUELVETE'.'<br>';
         echo '<button><a href="index.html">Volver</a></button>';
@@ -19,6 +19,7 @@
     ($_POST['preorden'] != '' && $_POST['inorden'] == '' && $_POST['postorden'] != '') ||
     ($_POST['preorden'] == '' && $_POST['inorden'] != '' && $_POST['postorden'] != ''))
     {
+        
 
     }elseif ($_POST['preorden'] != '' && $_POST['inorden'] != '' && $_POST['postorden'] != '') 
     {
