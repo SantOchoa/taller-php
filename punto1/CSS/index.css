@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --bg-color: #e0e5ec;
+    --primary-text: #5b6a82;
+    --light-shadow: #ffffff;
+    --dark-shadow: #a3b1c6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: var(--bg-color);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px var(--dark-shadow),
+                -10px -10px 20px var(--light-shadow);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: var(--bg-color);
+    box-shadow: inset 7px 7px 15px var(--dark-shadow),
+                inset -7px -7px 15px var(--light-shadow);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: var(--primary-text);
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: var(--bg-color);
+    box-shadow: 7px 7px 15px var(--dark-shadow),
+                -7px -7px 15px var(--light-shadow);
+    color: var(--primary-text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+button:active {
+    box-shadow: inset 7px 7px 15px var(--dark-shadow),
+                inset -7px -7px 15px var(--light-shadow);
+    font-size: 1.05rem;
+}

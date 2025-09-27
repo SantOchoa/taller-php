@@ -21,6 +21,7 @@ $num_coincidencias = 0;
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel = "stylesheet" href="CSS/principal.css">
     <title>Buscador de Contenido en Texto</title>
 </head>
 <body>

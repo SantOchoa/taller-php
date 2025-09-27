@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff007f, #00c3ff);
+}
+
+form {
+    width: 100%;
+    max-width: 350px;
+    padding: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    
+    
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+legend {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    color: #f0f0f0;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: 600;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+select {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+select option {
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background: #ffffff;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}

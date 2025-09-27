@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kalam', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f7f6d5;
+    background-image: 
+        linear-gradient(rgba(0, 0, 255, 0.1) 1px, transparent 1px);
+    background-size: 100% 2em;
+}
+
+form {
+    background: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px 40px;
+    border: 1px solid #ccc;
+    border-radius: 3px 2px 5px 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+label {
+    display: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px dashed #999;
+    
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+    color: #444;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px dashed #3d3d3d;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Kalam', cursive;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #fff740;
+    color: #333;
+    border: 2px solid #444;
+    border-radius: 4px 3px 5px 3px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+button:hover {
+    box-shadow: 3px 3px 0px #444;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
