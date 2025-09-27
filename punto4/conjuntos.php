@@ -36,6 +36,7 @@ $mostrar_resultados = false;
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel = "stylesheet" href="CSS/principal.css">
     <title>Operaciones de Conjuntos</title>
 </head>
 <body>
