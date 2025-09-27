@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="CSS/index.css">
-    <title>Document</title>
+    <title>Constructor de Árbol Binario</title>
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-    <form action="makeThree.php" method="post">
-        <div>
-            <label for="preorden">Preorden</label>
-            <input type="text" id="preorden"name="preorden">
-        </div>
-        <div>
-            <label for="inorden">Inorden</label>
-            <input type="text" id="inorden" name="inorden">
-        </div>
-        <div>
-            <label for="postorden">Postorden</label>
-            <input type="text" id="postorden" name="postorden">
-        </div>
-        <button type="submit">Hacer arbol</button>
-    </form>
+
+    <div class="container">
+        <h1>Constructor de Árbol Binario</h1>
+        <p>Ingresa al menos dos de los tres recorridos (Preorden, Inorden, Postorden). Separa cada nodo con una coma.</p>
+        
+        <form action="makeThree.php" method="POST">
+            <div class="form-group">
+                <label for="preorden">Recorrido Preorden:</label>
+                <input type="text" id="preorden" name="preorden" placeholder="Ej: A, B, D, E, C">
+            </div>
+
+            <div class="form-group">
+                <label for="inorden">Recorrido Inorden:</label>
+                <input type="text" id="inorden" name="inorden" placeholder="Ej: D, B, E, A, C">
+            </div>
+
+            <div class="form-group">
+                <label for="postorden">Recorrido Postorden:</label>
+                <input type="text" id="postorden" name="postorden" placeholder="Ej: D, E, B, C, A">
+            </div>
+
+            <button type="submit">Construir Árbol</button>
+        </form>
+    </div>
+
 </body>
 </html>
